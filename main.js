@@ -64,3 +64,31 @@ if(  str!==str2  ){
 
 console.log("{str} Is The Same Type As {str2} But Not The Same Value")
 }
+
+
+
+
+
+
+let num4 = 10;
+let num5 = 30;
+let num6 = "30";
+
+// Needed Output
+"30 Is Larger Than 10 And Type string Not The Same Type As number"
+"30 Is Larger Than 10 And Value Is The Same As 30 And Type string Not The Same Type As number"
+"{num3} Value And Type Is Not The Same As {num1} And Type Is Not The Same As {num2}"
+
+
+if( num5 > num4 && num5 !== num4 ){
+    console.log ("30 Is Larger Than 10 And Type string Not The Same Type As number")
+}
+
+if( num5 > num4 && num5 !== num4 ){
+    console.log ("30 Is Larger Than 10 And Value Is The Same As 30 And Type string Not The Same Type As number")
+}
+
+
+if( num6 !== num4 && num6 !== num5 ){
+    console.log ("{num6} Value And Type Is Not The Same As {num4} And Type Is Not The Same As {num2}")
+}
