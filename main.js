@@ -36,3 +36,31 @@ if(num2 < 10){
 }else if(  10 < num2 < 100){
     console.log(`0${num2}`);
 }
+
+
+
+
+let num3 = 9;
+let str = "9";
+let str2 = "20";
+
+// Output
+"{num1} Is The Same Value As {str}"
+"{num1} Is The Same Value As {str} But Not The Same Type"
+"{num1} Is Not The Same Value Or The Same Type As {str2}"
+"{str} Is The Same Type As {str2} But Not The Same Value"
+
+
+if(num3 == str){
+    console.log("{num3} Is The Same Value As {str}")
+}
+ if(num3 ==str && num3 !== str){
+    console.log("{num3} Is The Same Value As {str} But Not The Same Type")
+}
+if(num3 != str2 && num3 !== str2 ){
+    console.log ("{num1} Is Not The Same Value Or The Same Type As {str2}")
+}
+if(  str!==str2  ){
+
+console.log("{str} Is The Same Type As {str2} But Not The Same Value")
+}
